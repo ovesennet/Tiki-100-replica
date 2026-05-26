@@ -1,0 +1,542 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f7fac31e-f5e3-4d44-b601-4a1b2e28c40f")
+	(paper "A3")
+	(lib_symbols)
+	(text "TIKI-100 Replica - KONTIKI-100 by NORATOM A.S"
+		(exclude_from_sim no)
+		(at 30 25 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left)
+		)
+		(uuid "9ef4778d-cc2e-4117-b355-f12f7a1d7e95")
+	)
+	(text "Drawing 29095, Rev C - Mainboard Schematic"
+		(exclude_from_sim no)
+		(at 30 33 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "f895d2b1-e959-459c-a4ea-efb59c1b9fc5")
+	)
+	(sheet
+		(at 30 130)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "23836d11-5fd8-46ca-93f2-f0998251dcbb")
+		(property "Sheetname" "Sound & Scroll"
+			(at 30 129 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sound.kicad_sch"
+			(at 30 156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 50)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "3090d5de-0626-4088-b62c-9f8979ed29d2")
+		(property "Sheetname" "CPU & Clock"
+			(at 30 49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 30 76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 250 90)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "48e263aa-5651-4751-a19e-ea707c6ee02a")
+		(property "Sheetname" "Timer"
+			(at 250 89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Timer.kicad_sch"
+			(at 250 116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 90)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "4ce1a343-c6b5-4666-af03-fc5912b5f38f")
+		(property "Sheetname" "Serial Ports"
+			(at 30 89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Serial.kicad_sch"
+			(at 30 116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140 90)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "7556905f-6bf9-4668-84aa-87d6cca7754f")
+		(property "Sheetname" "Parallel Port"
+			(at 140 89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Parallel.kicad_sch"
+			(at 140 116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140 170)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "762a3cef-ee22-49f8-a70b-a988046f464b")
+		(property "Sheetname" "Expansion"
+			(at 140 169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Expansion.kicad_sch"
+			(at 140 196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140 50)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "8f5e3136-db74-4fb2-a9dc-a89d293b5bf6")
+		(property "Sheetname" "Memory"
+			(at 140 49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 140 76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 250 130)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "9effb729-a2ba-44c3-b3c1-619c0227e3e2")
+		(property "Sheetname" "Video"
+			(at 250 129 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Video.kicad_sch"
+			(at 250 156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140 130)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "a23d15e3-2918-4ce2-8583-c23165189a20")
+		(property "Sheetname" "Floppy Disk"
+			(at 140 129 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FDC.kicad_sch"
+			(at 140 156 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 170)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "b8a65e35-f9cb-43e9-9e47-587ab31ce568")
+		(property "Sheetname" "Keyboard"
+			(at 30 169 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyboard.kicad_sch"
+			(at 30 196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 250 50)
+		(size 80 25)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 0)
+		)
+		(uuid "d6b4c8ad-3109-402a-9009-508b9b561156")
+		(property "Sheetname" "Address Decode"
+			(at 250 49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Address_Decode.kicad_sch"
+			(at 250 76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Tiki-100-mainboard"
+				(path "/f7fac31e-f5e3-4d44-b601-4a1b2e28c40f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "0")
+		)
+	)
+	(embedded_fonts no)
+)

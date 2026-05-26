@@ -1,0 +1,8 @@
+# Ignore KiCad internal backup history
+.history/
+
+# Ignore local project workspace settings (window positions, active layers, etc.)
+*.kicad_prl
+
+# Ignore temporary footprint info cache
+fp-info-cache
