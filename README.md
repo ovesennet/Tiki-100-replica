@@ -1,5 +1,7 @@
 # TIKI-100 computer replica schematics
 
+NOTE: This project is in a very early phase, and a lot of details are missing or wrong.
+
 ## What is the TIKI-100
 
 The TIKI-100 (also known as KONTIKI-100) is a Z80-based microcomputer designed and manufactured by Tiki Data AS in Norway, first released in 1984. It was primarily used in Norwegian schools and homes during the mid-1980s as part of a national initiative to introduce computers into education.
